@@ -1,0 +1,28 @@
+{
+  "name": "search-indexer-algolia",
+  "description": "base-search indexer to enable collecting and adding records to an algolia search index",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb/search-indexer-algolia",
+  "author": "Brian Woodward (https://github.com/doowb)",
+  "repository": "doowb/search-indexer-algolia",
+  "bugs": {
+    "url": "https://github.com/doowb/search-indexer-algolia/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "algolia",
+    "indexer",
+    "search"
+  ]
+}
