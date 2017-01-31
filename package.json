@@ -29,5 +29,31 @@
     "algoliasearch": "^3.20.4",
     "async-each": "^1.0.1",
     "extend-shallow": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "algoliasearch",
+      "base-seaerch",
+      "base-search",
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
