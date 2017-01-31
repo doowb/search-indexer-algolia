@@ -1,4 +1,4 @@
-# search-indexer-algolia [![NPM version](https://img.shields.io/npm/v/search-indexer-algolia.svg?style=flat)](https://www.npmjs.com/package/search-indexer-algolia) [![NPM monthly downloads](https://img.shields.io/npm/dm/search-indexer-algolia.svg?style=flat)](https://npmjs.org/package/search-indexer-algolia)  [![NPM total downloads](https://img.shields.io/npm/dt/search-indexer-algolia.svg?style=flat)](https://npmjs.org/package/search-indexer-algolia)
+# search-indexer-algolia [![NPM version](https://img.shields.io/npm/v/search-indexer-algolia.svg?style=flat)](https://www.npmjs.com/package/search-indexer-algolia) [![NPM monthly downloads](https://img.shields.io/npm/dm/search-indexer-algolia.svg?style=flat)](https://npmjs.org/package/search-indexer-algolia)  [![NPM total downloads](https://img.shields.io/npm/dt/search-indexer-algolia.svg?style=flat)](https://npmjs.org/package/search-indexer-algolia) [![Linux Build Status](https://img.shields.io/travis/doowb/search-indexer-algolia.svg?style=flat&label=Travis)](https://travis-ci.org/doowb/search-indexer-algolia)
 
 > base-search indexer to enable collecting and adding records to an algolia search index
 
