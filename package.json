@@ -24,5 +24,10 @@
     "algolia",
     "indexer",
     "search"
-  ]
+  ],
+  "dependencies": {
+    "algoliasearch": "^3.20.4",
+    "async-each": "^1.0.1",
+    "extend-shallow": "^2.0.1"
+  }
 }
