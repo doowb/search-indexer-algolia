@@ -10,13 +10,13 @@ var algolia = require('algoliasearch');
  * ```js
  * var opts = {
  *   APPLICATION_ID: '12345',
- *   SECRET_KEY: 'xxxxx'
+ *   API_KEY: 'xxxxx'
  * };
  * app.search.indexer('algolia', algolia(opts));
  * ```
  * @param  {Object}   `options` Options for setting up the [algoliasearch][] client and index.
  * @param  {String}   `options.APPLICATION_ID` algolia application id
- * @param  {String}   `options.SECRET_KEY` algolia api key used for adding records to an index
+ * @param  {String}   `options.API_KEY` algolia api key used for adding records to an index
  * @param  {String}   `options.index` algolia index to add records to
  * @param  {Function} `options.collectFn` Custom collect function to use for creating records from file objects. See [collect](#collect) method for more information.
  * @param  {Function} `options.indexFn` Custom index function used to add records to the algolia index. See [index](#index) method for more information.
@@ -51,7 +51,7 @@ function Indexer(options) {
  * ```
  * @param  {Object}   `options` Options for setting up the [algoliasearch][] client and index.
  * @param  {String}   `options.APPLICATION_ID` algolia application id
- * @param  {String}   `options.SECRET_KEY` algolia api key used for adding records to an index
+ * @param  {String}   `options.API_KEY` algolia api key used for adding records to an index
  * @param  {String}   `options.index` algolia index to add records to
  * @param  {Function} `options.collectFn` Custom collect function to use for creating records from file objects. See [collect](#collect) method for more information.
  * @param  {Function} `options.indexFn` Custom index function used to add records to the algolia index. See [index](#index) method for more information.
@@ -69,7 +69,7 @@ Indexer.prototype.init = function(options) {
     throw new Error('expected "index" to be on "options"');
   }
 
-  this.client = algolia(opts.APPLICATION_ID, opts.SECRET_KEY);
+  this.client = algolia(opts.APPLICATION_ID, opts.API_KEY || opts.SECRET_KEY);
   this.idx = this.client.initIndex(opts.index);
   return this;
 };
