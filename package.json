@@ -1,7 +1,7 @@
 {
   "name": "search-indexer-algolia",
   "description": "base-search indexer to enable collecting and adding records to an algolia search index",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/doowb/search-indexer-algolia",
   "author": "Brian Woodward (https://github.com/doowb)",
   "repository": "doowb/search-indexer-algolia",
